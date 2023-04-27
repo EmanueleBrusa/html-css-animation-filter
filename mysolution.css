@@ -63,3 +63,13 @@
     filter: invert(100%) saturate(100%);
 }
 /*fine ottavo esercizio*/
+/*inizio nono esercizio*/
+.ex-9-img{
+    transition: 3s;
+}
+.ex-9-img:hover{
+    border-radius: 10%;
+    filter: invert(100%) saturate(100%);
+    transform: scale(0.5);
+}
+/*fine nono esercizio*/
