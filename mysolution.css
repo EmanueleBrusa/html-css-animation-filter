@@ -73,3 +73,13 @@
     transform: scale(0.5);
 }
 /*fine nono esercizio*/
+/*inizio decimo esercizio*/
+.ex-10-icon{
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+/*fine decimo esercizio*/
