@@ -99,3 +99,33 @@
     }
 }
 /*fine undicesimo esercizio*/
+/*inizio dodicesimo esercizio*/
+.ex-12-button:hover .ex-12-top-white{
+    animation: slideright 2s linear infinite;
+}
+@keyframes slideright{
+    0%{
+        left: 10%;
+    }
+    50%{
+        left: 58%;
+    }
+    100%{
+        left: 10%;
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: slideleft 2s linear infinite;
+}
+@keyframes slideleft{
+    0%{
+        right: 10%;
+    }
+    50%{
+        right: 58%;
+    }
+    100%{
+        right: 10%;
+    }
+}
+/*fine dodicesimo esercizio*/
