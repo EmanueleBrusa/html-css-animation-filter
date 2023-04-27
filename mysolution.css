@@ -14,3 +14,11 @@
     width: 100%;
 }
 /*fine secondo esercizio*/
+/*inizio terzo esercizio*/
+.ex-3-square{
+    transition: 1s;
+}
+.ex-3-square:hover{
+    border-radius: 100%;
+}
+/*fine terzo esercizio*/
