@@ -129,3 +129,47 @@
     }
 }
 /*fine dodicesimo esercizio*/
+/*inizio tredicesimo esercizio*/
+.ex-13-button:hover .ex-13-top-white{
+    animation: roundabouttop 2s linear infinite;
+}
+@keyframes roundabouttop{
+    0%{
+        left: 5%;
+        top: -10;
+    }
+    25%{
+        left: 58%;
+        top: -10px;
+    }
+    50%{
+        left: 100%;
+        top: 30%
+    }
+    75%{
+        left: 100%;
+        top: 70%;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: roundaboutbottom 2s linear infinite
+}
+@keyframes roundaboutbottom{
+    0%{
+        right: 5%;
+        bottom: -10;
+    }
+    25%{
+        right: 58%;
+        bottom: -10px;
+    }
+    50%{
+        right: 75%;
+        bottom: 20%
+    }
+    75%{
+        right: 75%;
+        bottom: 40%;
+    }
+}
+/*fine tredicesimo esercizio*/
